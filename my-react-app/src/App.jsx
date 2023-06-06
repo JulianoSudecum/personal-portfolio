@@ -36,6 +36,13 @@ function App() {
             </a>
           </div>
         </div>
+        <div className='div_project'>
+          <h1>Gestor de Estoque (Meta IC)</h1>
+          <div className='div_img'>
+            <img className='img_desk' src="metaDesk.png"/>
+            <img className='img_mobile' src="metaMobile.png"/>
+          </div>
+        </div>
       </div>
     </>
   )
