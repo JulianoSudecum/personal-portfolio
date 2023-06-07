@@ -9,7 +9,7 @@ function App() {
     <>
       <div className='first_div'>
         <p className='main_text'>
-        <span className='my_name'>OI, EU SOU O JULIANO <MdWavingHand /></span><br/>
+        <span className='my_name'>OI, EU SOU O JULIANO <MdWavingHand id='handle_icon' /></span><br/>
         <span className='my_stack'>REACT
         <a id='linkedin' target="_blank" href='https://www.linkedin.com/in/julianosudecum/' className='button_social'> <AiFillLinkedin size={32} /></a>
         <a target="_blank" href='https://github.com/JulianoSudecum' className='button_social'> <AiFillGithub size={32} /></a>

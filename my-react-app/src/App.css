@@ -23,6 +23,15 @@ body{
   animation: OpacityAnimation 1s;
 }
 
+#handle_icon{
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#handle_icon:hover{
+  color: rgb(255, 217, 0);
+}
+
 .my_name{
   font-family: 'Days One', sans-serif;
   color: rgb(214, 214, 214);
@@ -90,10 +99,6 @@ body{
 
 .img_desk{
   width: 50%;
-}
-
-.img_desk:hover{
-  
 }
 
 .img_mobile{
