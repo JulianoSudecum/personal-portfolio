@@ -1,5 +1,6 @@
 import './App.css'
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
+import { MdWavingHand } from "react-icons/md"
 
 function App() {
   
@@ -8,7 +9,7 @@ function App() {
     <>
       <div className='first_div'>
         <p className='main_text'>
-        <span className='my_name'>OI, EU SOU O JULIANO</span><br/>
+        <span className='my_name'>OI, EU SOU O JULIANO <MdWavingHand /></span><br/>
         <span className='my_stack'>REACT
         <a id='linkedin' target="_blank" href='https://www.linkedin.com/in/julianosudecum/' className='button_social'> <AiFillLinkedin size={32} /></a>
         <a target="_blank" href='https://github.com/JulianoSudecum' className='button_social'> <AiFillGithub size={32} /></a>
@@ -37,7 +38,7 @@ function App() {
           </div>
         </div>
         <div className='div_project'>
-          <h1>Gestor de Estoque (Meta IC)</h1>
+          <h1>Controle de Estoque (Meta IC)</h1>
           <div className='div_img'>
             <img className='img_desk' src="metaDesk.png"/>
             <img className='img_mobile' src="metaMobile.png"/>
