@@ -6,6 +6,10 @@ body{
   margin: 0;
 }
 
+#full_stack_id{
+  color: white;
+}
+
 .first_div{
   height: 100vh;
 
