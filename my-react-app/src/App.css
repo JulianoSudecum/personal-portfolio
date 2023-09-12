@@ -77,6 +77,10 @@ body{
   color: #0A66C2;
 }
 
+#github:hover{
+  color: rgb(132, 0, 255);
+}
+
 .slide_project{
   animation: OpacityAnimation 1s;
   padding: 5rem;
@@ -115,6 +119,27 @@ body{
 
 .img_mobile:hover{
   transform: scale(1.3);
+}
+
+.project_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+}
+
+.project_title > svg{
+  cursor: pointer;
+}
+
+.project_title > a{
+  color: black;
+  display: flex;
+  transition: 0.2s;
+}
+
+.project_title > a:hover{
+  transform: scale(1.15);
 }
 
 @keyframes mobileAnimation{
